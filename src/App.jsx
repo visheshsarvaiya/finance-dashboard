@@ -1,5 +1,13 @@
-import Dashboard from "./pages/Dashboard";
+import React from "react";
+import Dashboard from "./pages/Dashboard.jsx";
+import { AppProvider } from "./context/AppContext";
 
-export default function App() {
-  return <Dashboard />;
+function App() {
+  return (
+    <AppProvider>
+      <Dashboard />
+    </AppProvider>
+  );
 }
+
+export default App;

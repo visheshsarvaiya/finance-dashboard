@@ -1,0 +1,68 @@
+export const transactionsData = [
+  {
+    id: 1,
+    date: "Mar 31, 2026",
+    desc: "Business Income",
+    cat: "Business",
+    type: "income",
+    amt: 2647.0,
+  },
+  {
+    id: 2,
+    date: "Mar 30, 2026",
+    desc: "Bonus",
+    cat: "Salary",
+    type: "income",
+    amt: 1864.0,
+  },
+  {
+    id: 3,
+    date: "Mar 29, 2026",
+    desc: "Fast Food",
+    cat: "Food & Dining",
+    type: "expense",
+    amt: 351.0,
+  },
+  {
+    id: 4,
+    date: "Mar 28, 2026",
+    desc: "Water Bill",
+    cat: "Bills & Utilities",
+    type: "expense",
+    amt: 30.0,
+  },
+  {
+    id: 5,
+    date: "Mar 25, 2026",
+    desc: "Interest",
+    cat: "Investment",
+    type: "income",
+    amt: 1666.0,
+  },
+
+  // EXTRA DATA (for better UI like screenshot)
+  {
+    id: 6,
+    date: "Mar 24, 2026",
+    desc: "Uber Ride",
+    cat: "Transportation",
+    type: "expense",
+    amt: 220.0,
+  },
+  {
+    id: 7,
+    date: "Mar 22, 2026",
+    desc: "Groceries",
+    cat: "Food & Dining",
+    type: "expense",
+    amt: 540.0,
+  },
+  {
+    id: 8,
+    date: "Mar 20, 2026",
+    desc: "Freelance Work",
+    cat: "Business",
+    type: "income",
+    amt: 3200.0,
+  },
+];
