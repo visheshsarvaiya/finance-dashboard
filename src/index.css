@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Your custom styles below */
+body {
+  @apply bg-[#f8fafc] text-[#1e293b] antialiased;
+}
+
+.glass-card {
+  @apply bg-white border border-slate-200 rounded-2xl shadow-sm;
+}
